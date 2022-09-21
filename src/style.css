@@ -1,9 +1,34 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: lightblue;
+:root {
+    --gulfblue: #C9DFEC;
+    --gulforange: #FF6720;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--gulfblue);
+    padding: 1.2rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+header li {
+    display: flex;
+    padding: .4rem;
+    border-radius: 5px 5px 0 0 ;
+    border-top: 2px solid var(--gulforange);
+    border-left: 2px solid var(--gulforange);
+    border-right: 2px solid var(--gulforange);
+    cursor: pointer;
+}
 
 #content {
     text-align: center;
