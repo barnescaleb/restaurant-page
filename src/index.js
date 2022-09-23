@@ -1,6 +1,6 @@
 import { initialPageLoad } from './initial-page-load.js';
 import { menu } from './menu.js';
-import { contact } from './contact.js';
+import { dog } from './dog.js';
 
 initialPageLoad();
 
@@ -14,7 +14,7 @@ let tabSwitcher = (function() {
     const menuTab = document.querySelector(".menu");
     menuTab.addEventListener("click", menu);
 
-    const contactTab = document.querySelector(".contact");
-    contactTab.addEventListener("click", contact);
+    const dogTab = document.querySelector(".dog");
+    dogTab.addEventListener("click", dog);
 
 })();

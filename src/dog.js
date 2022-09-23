@@ -1,4 +1,4 @@
-export function contact() {
+export function dog() {
 
     const contentDiv = document.querySelector("#content");
 
@@ -7,7 +7,7 @@ export function contact() {
 
     // Appends Header
     const header = document.createElement("h1");
-    header.textContent = "Floofer Menu";
+    header.textContent = "FL00FER Menu";
     header.classList.add("landing-page");
     contentDiv.appendChild(header); 
 }
