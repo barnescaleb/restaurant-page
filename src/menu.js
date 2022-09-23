@@ -11,4 +11,10 @@ export function menu() {
     header.classList.add("landing-page");
     contentDiv.appendChild(header); 
 
+    const topImage = document.createElement("img");
+    topImage.classList.add("top-image");
+    topImage.src = "../src/imgs/dogcup.jpeg";
+    topImage.alt = "Image of Dog & Cup";
+    contentDiv.appendChild(topImage);
+
 }
