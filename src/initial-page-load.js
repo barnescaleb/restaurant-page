@@ -1,6 +1,9 @@
 export function initialPageLoad() {
 
     const contentDiv = document.querySelector("#content");
+
+    contentDiv.replaceChildren();
+
     const header = document.createElement("h1");
     header.textContent = "The Dog Barn Cafe";
     header.classList.add("landing-page");
